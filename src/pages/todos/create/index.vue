@@ -1,6 +1,6 @@
 <template>
-  <h1>To-Do Page</h1>
-  <todo-form :edeiting="true" />
+  <h1>Create Todo</h1>
+  <todo-form />
 </template>
 
 <script>
@@ -10,7 +10,6 @@ export default {
   components: {
     TodoForm,
   },
-  setup() {},
 };
 </script>
 
